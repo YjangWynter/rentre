@@ -1,0 +1,220 @@
+* {
+
+  margin: 0;
+
+  font-family: "Montserrat", sans-serif;
+
+}
+
+table,
+
+th,
+
+td {
+
+  border: 0px solid black;
+
+  text-align: center;
+
+}
+
+table {
+
+  margin-bottom: 30px;
+
+}
+
+hr {
+
+  margin: 20 30;
+
+}
+
+img {
+
+  height: 200px;
+
+  /* border: px dotted black; */
+
+  border-radius: 8px;
+
+  margin: 5px;
+
+}
+
+a {
+
+  text-decoration: none;
+
+  color: lightcoral;
+
+}
+
+body {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+}
+
+.download {
+
+  height: 95vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+.download a {
+
+  padding: 20px;
+
+  color: #fff;
+
+  background-color: blue;
+
+  border-radius: 10px;
+
+}
+
+.image {
+
+  display: flex;
+
+  justify-content: center;
+
+  height: 100vh;
+
+  align-items: center;
+
+}
+
+.img {
+
+  /* position: absolute; */
+
+  top: 0;
+
+  left: -5;
+
+  margin-top: -100px;
+
+  margin-left: -20px;
+
+  z-index: -5;
+
+  height: 100%;
+
+  width: 100%;
+
+}
+
+.img img {
+
+  height: 600px;
+
+}
+
+footer {
+
+  position: relative;
+
+  width: 100%;
+
+  bottom: 0;
+
+  padding: 20 200;
+
+  background-color: aqua;
+
+  clear: both;
+
+  height: 250px;
+
+  /* margin-top: -200px; */
+
+  color: black;
+
+}
+
+.aboutus {
+
+  position: absolute;
+
+  font-weight: bold;
+
+  color: black;
+
+  font-size: 60px;
+
+  margin: 200 0 0 0;
+
+}
+
+.about-us-para {
+
+  font-size: 20px;
+
+  padding: 40px;
+
+}
+
+blockquote {
+
+  font-size: 20px;
+
+  padding: 40px;
+
+}
+
+.subscribe {
+
+  width: 100%;
+
+  height: 400px;
+
+  font-size: 40px;
+
+  background-color: black;
+
+}
+
+.Products .item {
+
+  width: auto;
+
+  margin: 20px;
+
+}
+
+.Products .item p {
+
+  font-weight: bold;
+
+  display: flex;
+
+  justify-content: center;
+
+}
+
+.Products {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  flex-direction: row;
+
+}
+
+.details {
+
+  float: right;
+}
